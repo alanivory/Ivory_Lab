@@ -49,6 +49,7 @@ education:
     date_end: 2023-05-31
     summary: |
       Thesis: Urban Wildlife Use of Stormwater Sewer Systems.
+      Advisor: Dr. Steve Johnson.
   - area: BS Wildlife Ecology and Conservation
     institution: University of Florida
     date_start: 2015-08-01
@@ -58,7 +59,7 @@ education:
 
 work:
   - position: Graduate Research Assistant
-    company_name: School of Forest, Fisheries, and Geomatic Sciences, University of Florida
+    company_name: School of Forest Resources and Conservation, West Florida Research and Education Center, University of Florida
     company_url: 'https://victoriadonovan.org'
     company_logo: ''
     date_start: 2024-01-01
