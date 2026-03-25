@@ -25,6 +25,35 @@ sections:
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
+
+  - block: collection
+    id: projects
+    content:
+      title: Current Projects
+      subtitle: ''
+      text: ''
+      filters:
+        folders:
+          - project
+    design:
+      view: article-grid
+      columns: 2
+
+  - block: collection
+    id: publications
+    content:
+      title: Recent Publications
+      subtitle: ''
+      text: ''
+      count: 5
+      filters:
+        folders:
+          - publication
+        featured_only: false
+    design:
+      view: article-grid
+      columns: 2
+
   - block: experience
     content:
       username: admin
@@ -33,14 +62,26 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+
   - block: skills
     content:
-      title: Skills & Hobbies
+      title: Skills & Interests
       username: admin
+
   - block: awards
     content:
-      title: Awards
+      title: Awards & Grants
       username: admin
+
+  - block: markdown
+    id: media
+    content:
+      title: Media Coverage
+      text: |
+        My research on wildlife living in urban stormwater sewer systems received international media coverage in 2025, including the *New York Times*, *BBC Newsround*, *New York Post*, Fox News, ABC Radio Australia, and dozens of other outlets.
+
+        [📰 See all media coverage →](media/)
+
   - block: languages
     content:
       title: Languages

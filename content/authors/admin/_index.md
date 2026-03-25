@@ -1,172 +1,173 @@
 ---
 # Display name
-title: 吳健雄
+title: Alan Ivory
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Alan
+last_name: Ivory
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🌿
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: PhD Candidate in Forest Resources and Conservation
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: University of Florida
+    url: https://alanivory.org
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:alanivory34428@ufl.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/alanivory
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Forest Resources and Conservation
+    institution: University of Florida
+    date_start: 2023-01-01
+    date_end: 2027-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Doctoral research in Forest Resources and Conservation. Expected graduation December 2027.
+      Advisor: Dr. Victoria Donovan.
+  - area: MS Wildlife Ecology and Conservation
+    institution: University of Florida
+    date_start: 2022-06-01
+    date_end: 2023-05-31
     summary: |
-      GPA: 3.8/4.0
+      Thesis: Urban Wildlife Use of Stormwater Sewer Systems.
+      Advisor: Dr. Steve Johnson.
+  - area: BS Wildlife Ecology and Conservation
+    institution: University of Florida
+    date_start: 2015-08-01
+    date_end: 2019-12-15
+    summary: |
+      Bachelor of Science in Wildlife Ecology and Conservation.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Graduate Research Assistant
+    company_name: School of Forest Resources and Conservation, West Florida Research and Education Center, University of Florida
+    company_url: 'https://victoriadonovan.org'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-01-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      Doctoral research in the Donovan Lab (PI: Dr. Victoria Donovan), focusing on:
+      - Cogongrass (*Imperata cylindrica*) impacts on fire behavior in southeastern U.S. forests
+      - Invasive species effects on community composition and ecosystem services
+      - Prescribed fire and landscape ecology
+  - position: Graduate Teaching Assistant
+    company_name: Department of Biology, University of Florida
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-08-01
+    date_end: 2023-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Taught 60 undergraduate students in Biology 2 Lab through laboratory and field-based instruction.
+  - position: Scientist in Residence
+    company_name: Thompson Earth Systems Institute, University of Florida
+    company_url: 'https://www.floridamuseum.ufl.edu/earth-systems/'
+    company_logo: ''
+    date_start: 2020-08-01
+    date_end: 2022-12-31
+    summary: |2-
+      Embedded K-12 scientist in Marion and Levy County, FL school districts (Smallwood Foundation Fellow):
+      - Led teacher professional development on scientific tools and process
+      - Conducted classroom outreach reaching hundreds of students per year
+      - Fostered science education via boat tours, field instruction, and curriculum-aligned experiments
+      - Co-wrote and stewarded a $32,000 Smallwood Foundation grant for program continuation
+  - position: Outreach Scientist
+    company_name: Thompson Earth Systems Institute, University of Florida
+    company_url: 'https://www.floridamuseum.ufl.edu/earth-systems/'
+    company_logo: ''
+    date_start: 2020-02-01
+    date_end: 2020-08-01
+    summary: |
+      K-12 science education outreach including STEM fairs, museum programming, and community events.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: R (Linear Modeling, LiDAR)
         description: ''
-        percent: 80
-        icon: devicon/python
-      - name: RStudio
+        percent: 90
+        icon: devicon/r
+      - name: ArcGIS Pro (Spatial/Network Analysis)
         description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
+        percent: 85
+        icon: map
+      - name: Fieldwork & Wildlife Monitoring
         description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
+        percent: 95
+        icon: magnifying-glass
+  - name: Interests
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: Wildlife Conservation
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: person-simple-walk
+      - name: Prescribed Fire & Invasive Species
         description: ''
-        percent: 80
-        icon: camera
+        percent: 90
+        icon: fire
+      - name: K-12 Science Outreach
+        description: ''
+        percent: 90
+        icon: academic-cap
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: IALE-NA Student Travel Award
+    url: ''
+    date: '2026-04-01'
+    awarder: International Association of Landscape Ecology – North America
+    icon: ''
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Student travel award ($840) to attend the IALE-NA Annual Meeting in Raleigh, NC.
+  - title: Doris Lowe and Earl and Verna Lowe Scholarship
+    url: ''
+    date: '2025-01-01'
+    awarder: University of Florida CALS
+    icon: ''
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      Merit scholarship ($2,000) from the UF College of Agricultural and Life Sciences.
+  - title: Smallwood Foundation Fellowship
+    url: ''
+    date: '2022-01-01'
+    awarder: Smallwood Foundation
+    icon: ''
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      $32,000 fellowship supporting a Scientist in Residence embedded within Marion and Levy County (FL) school districts. Co-wrote and stewarded the grant.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am a PhD candidate in **Forest Resources and Conservation** at the **University of Florida** in the [Donovan Lab](https://victoriadonovan.org), advised by Dr. Victoria Donovan. My doctoral research investigates how invasive species — particularly cogongrass (*Imperata cylindrica*) — alter fire behavior and community composition in southeastern U.S. forests.
+
+My broader research interests span **wildlife ecology**, **urban ecology**, and **conservation biology**. My master's research examined how vertebrates, including alligators, raccoons, and bats, use stormwater sewer systems in urban environments — work that received wide [media coverage](media/).
+
+I am also passionate about **science communication and K-12 outreach**, having spent three years as a Scientist in Residence in Florida public schools through the [Thompson Earth Systems Institute](https://www.floridamuseum.ufl.edu/earth-systems/).
+
+Feel free to reach out at [alanivory34428@ufl.edu](mailto:alanivory34428@ufl.edu)!
