@@ -25,6 +25,35 @@ sections:
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
+
+  - block: collection
+    id: projects
+    content:
+      title: Current Projects
+      subtitle: ''
+      text: ''
+      filters:
+        folders:
+          - project
+    design:
+      view: article-grid
+      columns: 2
+
+  - block: collection
+    id: publications
+    content:
+      title: Recent Publications
+      subtitle: ''
+      text: ''
+      count: 5
+      filters:
+        folders:
+          - publication
+        featured_only: false
+    design:
+      view: article-grid
+      columns: 2
+
   - block: experience
     content:
       username: admin
@@ -33,14 +62,17 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+
   - block: skills
     content:
-      title: Skills & Hobbies
+      title: Skills & Interests
       username: admin
+
   - block: awards
     content:
       title: Awards
       username: admin
+
   - block: languages
     content:
       title: Languages
