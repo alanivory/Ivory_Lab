@@ -70,8 +70,17 @@ sections:
 
   - block: awards
     content:
-      title: Awards
+      title: Awards & Grants
       username: admin
+
+  - block: markdown
+    id: media
+    content:
+      title: Media Coverage
+      text: |
+        My research on wildlife living in urban stormwater sewer systems received international media coverage in 2025, including the *New York Times*, *BBC Newsround*, *New York Post*, Fox News, ABC Radio Australia, and dozens of other outlets.
+
+        [📰 See all media coverage →](media/)
 
   - block: languages
     content:
